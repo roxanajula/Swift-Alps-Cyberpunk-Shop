@@ -1,14 +1,20 @@
 [
     {
+        "id": "laptop",
+        "name": "Cyperpunk Laptop",
+        "description": "Designed by Berk Gedik on Sketchfab",
+        "price": 45000
+    },
+    {
         "id": "car",
         "name": "Cyperpunk Car",
         "description": "Designed by 4d_Bob on Sketchfab",
         "price": 500000
     },
     {
-        "id": "laptop",
-        "name": "Cyperpunk Laptop",
+        "id": "scooter",
+        "name": "Cyperpunk Scooter",
         "description": "Designed by Berk Gedik on Sketchfab",
-        "price": 45000
+        "price": 78000
     }
 ]
