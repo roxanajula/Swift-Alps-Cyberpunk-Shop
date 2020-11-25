@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5FD1ADF256EA84D00C80DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1ADE256EA84D00C80DB1 /* AppDelegate.swift */; };
+		B5FD1AE1256EA84D00C80DB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1AE0256EA84D00C80DB1 /* SceneDelegate.swift */; };
+		B5FD1AE3256EA84D00C80DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1AE2256EA84D00C80DB1 /* ViewController.swift */; };
+		B5FD1AE6256EA84D00C80DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FD1AE4256EA84D00C80DB1 /* Main.storyboard */; };
+		B5FD1AE8256EA84F00C80DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FD1AE7256EA84F00C80DB1 /* Assets.xcassets */; };
+		B5FD1AEB256EA84F00C80DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FD1AE9256EA84F00C80DB1 /* LaunchScreen.storyboard */; };
+		B5FD1AF4256EA86600C80DB1 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1AF3256EA86600C80DB1 /* ShopItem.swift */; };
+		B5FD1AF7256EA89100C80DB1 /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1AF6256EA89100C80DB1 /* Bundle-Decoding.swift */; };
+		B5FD1AFB256EA96C00C80DB1 /* ShopItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1AFA256EA96C00C80DB1 /* ShopItemTableViewCell.swift */; };
+		B5FD1AFF256EAA3600C80DB1 /* ThumbnailGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD1AFE256EAA3600C80DB1 /* ThumbnailGenerator.swift */; };
+		B5FD1B03256EAA4B00C80DB1 /* shopItems.json in Resources */ = {isa = PBXBuildFile; fileRef = B5FD1B02256EAA4B00C80DB1 /* shopItems.json */; };
+		B5FD1B07256EAAE900C80DB1 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FD1B06256EAAE900C80DB1 /* Models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5FD1ADB256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Alps Cyberpunk Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FD1ADE256EA84D00C80DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5FD1AE0256EA84D00C80DB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5FD1AE2256EA84D00C80DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5FD1AE5256EA84D00C80DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5FD1AE7256EA84F00C80DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5FD1AEA256EA84F00C80DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5FD1AEC256EA84F00C80DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FD1AF3256EA86600C80DB1 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		B5FD1AF6256EA89100C80DB1 /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		B5FD1AFA256EA96C00C80DB1 /* ShopItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemTableViewCell.swift; sourceTree = "<group>"; };
+		B5FD1AFE256EAA3600C80DB1 /* ThumbnailGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailGenerator.swift; sourceTree = "<group>"; };
+		B5FD1B02256EAA4B00C80DB1 /* shopItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = shopItems.json; sourceTree = "<group>"; };
+		B5FD1B06256EAAE900C80DB1 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5FD1AD8256EA84D00C80DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5FD1AD2256EA84D00C80DB1 = {
+			isa = PBXGroup;
+			children = (
+				B5FD1ADD256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop */,
+				B5FD1ADC256EA84D00C80DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5FD1ADC256EA84D00C80DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5FD1ADB256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5FD1ADD256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop */ = {
+			isa = PBXGroup;
+			children = (
+				B5FD1ADE256EA84D00C80DB1 /* AppDelegate.swift */,
+				B5FD1AE0256EA84D00C80DB1 /* SceneDelegate.swift */,
+				B5FD1AF3256EA86600C80DB1 /* ShopItem.swift */,
+				B5FD1AF6256EA89100C80DB1 /* Bundle-Decoding.swift */,
+				B5FD1AFA256EA96C00C80DB1 /* ShopItemTableViewCell.swift */,
+				B5FD1AE2256EA84D00C80DB1 /* ViewController.swift */,
+				B5FD1AFE256EAA3600C80DB1 /* ThumbnailGenerator.swift */,
+				B5FD1AE4256EA84D00C80DB1 /* Main.storyboard */,
+				B5FD1B02256EAA4B00C80DB1 /* shopItems.json */,
+				B5FD1AE7256EA84F00C80DB1 /* Assets.xcassets */,
+				B5FD1B06256EAAE900C80DB1 /* Models.scnassets */,
+				B5FD1AE9256EA84F00C80DB1 /* LaunchScreen.storyboard */,
+				B5FD1AEC256EA84F00C80DB1 /* Info.plist */,
+			);
+			path = "Swift Alps Cyberpunk Shop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FD1ADA256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FD1AEF256EA84F00C80DB1 /* Build configuration list for PBXNativeTarget "Swift Alps Cyberpunk Shop" */;
+			buildPhases = (
+				B5FD1AD7256EA84D00C80DB1 /* Sources */,
+				B5FD1AD8256EA84D00C80DB1 /* Frameworks */,
+				B5FD1AD9256EA84D00C80DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Alps Cyberpunk Shop";
+			productName = "Swift Alps Cyberpunk Shop";
+			productReference = B5FD1ADB256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5FD1AD3256EA84D00C80DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					B5FD1ADA256EA84D00C80DB1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = B5FD1AD6256EA84D00C80DB1 /* Build configuration list for PBXProject "Swift Alps Cyberpunk Shop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5FD1AD2256EA84D00C80DB1;
+			productRefGroup = B5FD1ADC256EA84D00C80DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FD1ADA256EA84D00C80DB1 /* Swift Alps Cyberpunk Shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5FD1AD9256EA84D00C80DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FD1AEB256EA84F00C80DB1 /* LaunchScreen.storyboard in Resources */,
+				B5FD1AE8256EA84F00C80DB1 /* Assets.xcassets in Resources */,
+				B5FD1B03256EAA4B00C80DB1 /* shopItems.json in Resources */,
+				B5FD1B07256EAAE900C80DB1 /* Models.scnassets in Resources */,
+				B5FD1AE6256EA84D00C80DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5FD1AD7256EA84D00C80DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FD1AE3256EA84D00C80DB1 /* ViewController.swift in Sources */,
+				B5FD1ADF256EA84D00C80DB1 /* AppDelegate.swift in Sources */,
+				B5FD1AFF256EAA3600C80DB1 /* ThumbnailGenerator.swift in Sources */,
+				B5FD1AF4256EA86600C80DB1 /* ShopItem.swift in Sources */,
+				B5FD1AE1256EA84D00C80DB1 /* SceneDelegate.swift in Sources */,
+				B5FD1AFB256EA96C00C80DB1 /* ShopItemTableViewCell.swift in Sources */,
+				B5FD1AF7256EA89100C80DB1 /* Bundle-Decoding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5FD1AE4256EA84D00C80DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FD1AE5256EA84D00C80DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5FD1AE9256EA84F00C80DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FD1AEA256EA84F00C80DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5FD1AED256EA84F00C80DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5FD1AEE256EA84F00C80DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5FD1AF0256EA84F00C80DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5REVPJWQ7;
+				INFOPLIST_FILE = "Swift Alps Cyberpunk Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rj.Swift-Alps-Cyberpunk-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5FD1AF1256EA84F00C80DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5REVPJWQ7;
+				INFOPLIST_FILE = "Swift Alps Cyberpunk Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rj.Swift-Alps-Cyberpunk-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5FD1AD6256EA84D00C80DB1 /* Build configuration list for PBXProject "Swift Alps Cyberpunk Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FD1AED256EA84F00C80DB1 /* Debug */,
+				B5FD1AEE256EA84F00C80DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FD1AEF256EA84F00C80DB1 /* Build configuration list for PBXNativeTarget "Swift Alps Cyberpunk Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FD1AF0256EA84F00C80DB1 /* Debug */,
+				B5FD1AF1256EA84F00C80DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5FD1AD3256EA84D00C80DB1 /* Project object */;
+}
